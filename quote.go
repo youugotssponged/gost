@@ -17,7 +17,7 @@ func fetchQuery(symbols string) (map[string][]dateVal, error) {
 
 	query.Set("symbol", symbols)
 	query.Set("interval", "1day")
-	query.Set("apikey", "78fe8401d4024dc8a01245ca92068148")
+	query.Set("apikey", "[[INSERT API KEY HERE from twelvedata.com]]")
 
 	u.RawQuery = query.Encode()
 
